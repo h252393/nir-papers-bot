@@ -1,0 +1,36 @@
+name: 每日文献搜集
+
+on:
+  schedule:
+    # 每天 UTC 02:00 运行（北京时间早上 10:00）
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 允许手动点击按钮运行，方便我们等下测试
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 允许脚本把生成的文件推回仓库
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 运行文献搜索脚本
+        env:
+          COZE_API_TOKEN: ${{ secrets.COZE_API_TOKEN }}
+          COZE_DATASET_ID: ${{ secrets.COZE_DATASET_ID }}
+        run: node scripts/search.js
+
+      - name: 提交并推送到仓库
+        run: |
+          git config user.name "NIR-Bot"
+          git config user.email "bot@nir.local"
+          git add papers/ data/
+          git diff --staged --quiet || git commit -m "每日文献更新 $(date +%Y-%m-%d)"
+          git push
