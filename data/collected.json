@@ -208,5 +208,65 @@
     "doi": "10.1007/s11694-025-03140-w",
     "title": "Sweetpotato moisture content and textural property estimation using hyperspectral imaging and machine learning",
     "date": "2026-05-21"
+  },
+  {
+    "doi": "10.3390/foods12010210",
+    "title": "Feature Reduction for the Classification of Bruise Damage to Apple Fruit Using a Contactless FT-NIR Spectroscopy with Machine Learning",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.1016/j.foodchem.2025.143996",
+    "title": "Simultaneous detection of citrus internal quality attributes using near-infrared spectroscopy and hyperspectral imaging with multi-task deep learning and instrumental transfer learning.",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.3390/agriculture14050787",
+    "title": "Online Detection of Dry Matter in Potatoes Based on Visible Near-Infrared Transmission Spectroscopy Combined with 1D-CNN",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.1016/j.plaphe.2025.100042",
+    "title": "Insights of freshness phenotype detection for postharvest fruit and vegetables",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.3390/chemosensors13110393",
+    "title": "A Comprehensive Review of Non-Destructive Monitoring of Food Freshness and Safety Using NIR Spectroscopy and Biosensors: Challenges and Opportunities",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.1364/oe.516341",
+    "title": "Combination of near-infrared spectroscopy with Wasserstein generative adversarial networks for rapidly detecting raw material quality for formula products.",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.3390/agriculture15151702",
+    "title": "Four-Dimensional Hyperspectral Imaging for Fruit and Vegetable Grading",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.3168/jds.2025-27462",
+    "title": "Graduate Student Literature Review: A review on near-infrared spectroscopy for rapid detection of hazardous substances in milk and dairy products.",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.1002/agf2.70000",
+    "title": "Guideline for Non‐Destructive Testing of Agricultural Product Quality Using Spectral Imaging Technology",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.1007/s44462-025-00050-4",
+    "title": "Research progress of spectroscopic detection technology in agricultural product quality detection",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.1016/j.scienta.2026.114628",
+    "title": "Rapid and non-destructive determination of moisture and numbing substances in dried and fresh Zanthoxylum bungeanum Maxim. fruit using NIR spectroscopy and chemometrics",
+    "date": "2026-05-23"
+  },
+  {
+    "doi": "10.4025/actasciagron.v48i1.73344",
+    "title": "Color analysis and UV-VIS-NIR spectroscopy in the selection of Passiflora edulis hybrids for fresh consumption",
+    "date": "2026-05-23"
   }
 ]
